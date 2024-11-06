@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Calculate Your Power Consumption and Save Today | Utility Saving Hub">
+    <meta property="og:description"
+          content="Understanding how much electricity you use to power your home can help you lower your energy bills. Learn more with Utility Saving Hub.">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+          content="Understanding how much electricity you use to power your home can help you lower your energy bills. Learn more with Utility Saving Hub.">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>
+        All Your Home Services in One Place | Utility Saving Hub
+    </title>
+
+    <link rel="shortcut icon" href="images/logo-choose-energy-white-35a44b037c.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/project-0f5c928517.css">
+    <link rel="stylesheet" href="css/globalStyle.css">
+    <script src="js/global.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/project-0f5c928517_1.css">
+
+    <link href="/fonts/work-sans/work-sans-v9-latin-300.woff2" as="font" type="font/woff2" crossorigin="" rel="">
+
+    <link href="/fonts/work-sans/work-sans-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin="" rel="">
+
+    <link href="/fonts/work-sans/work-sans-v9-latin-500.woff2" as="font" type="font/woff2" crossorigin="" rel="">
+
+    <link href="/fonts/work-sans/work-sans-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin="" rel="">
+
+    <link href="/fonts/work-sans/work-sans-v9-latin-800.woff2" as="font" type="font/woff2" crossorigin="" rel="">
+
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="js/tp.widget.bootstrap.min.js" async=""></script>
+    <!-- End TrustBox script -->
+</head>
+
+<body>
+<div class="site-root js-site-root page--secondary">
+
+    <!--    <div id="header"></div>-->
+
+    <!--    <script>-->
+    <!--        fetch('/header')-->
+    <!--            .then(response => response.text())-->
+    <!--            .then(data => {-->
+    <!--                document.getElementById('header').innerHTML = data;-->
+    <!--                const currentPath = window.location.pathname;-->
+    <!--                const menuLinks = document.querySelectorAll('.menu-link');-->
+
+    <!--                menuLinks.forEach(link => {-->
+    <!--                    const linkPath = link.getAttribute('href');-->
+
+    <!--                    if (currentPath === linkPath) {-->
+    <!--                        link.classList.add('active');-->
+    <!--                    }-->
+    <!--                });-->
+    <!--            });-->
+    <!--    </script>-->
+
+    <div class="u-position-relative">
+        <div class="masthead u-full-width masthead--secondary">
+            <header class="header u-max-width">
+                <nav class="navbar">
+                    <div class="row" style="display: flex !important;justify-content: space-between">
+                        <div class="col-6" style="position: relative;bottom: 13rem !important;">
+                            <a href="../home/home.html"><img src="images/digital_2.png"></a>
+                        </div>
+                        <ul class="col-6" style="bottom: 12rem !important;">
+                            <li><a href="index.html" class="menu-item">Services</a></li>
+                            <li><a href="about.html" class="menu-item">About us</a></li>
+                            <li><a href="../contact/contact.html" class="menu-item">Contact us</a></li>
+                            <li><a href="privacy_policy.html" class="menu-item">Privacy Policy</a></li>
+                            <li><a href="term_and_conditions.html" class="menu-item">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--                <div id="header" class="">-->
+                <!--                    -->
+                <!--                </div>-->
+                <div class="header__inner">
+                    <div class="hero hero--secondary">
+                        <div class="hero__inner u-display-flex u-flex-direction-column u-flex-direction-row@lg u-align-items-center@lg u-justify-content-space-around@lg">
+                            <div class="hero__heading-wrapper hero__heading--no-image u-display-flex u-flex-wrap-wrap u-align-items-center">
+                                <h1 class="hero__headline" style="padding-bottom: 1rem;">
+                                    All Your Home Services in One Place
+                                </h1>
+
+                                <div class="hero__byline">
+                                    <div class="hero__byline-section hero__byline-author">
+                                        <div>
+                                            <a><span style="line-height: normal;">Owning a home can be demanding. That's where
+                            Utility Savings Hub steps in, acting as your
+                            trusted intermediary. By connecting buyers like
+                            you with esteemed suppliers, we ensure you get
+                            quality services without the hassle.</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__form-wrapper">
+                                <div class="hero__form-inner">
+                                    <div class="hero__form-wrapper">
+                                        <div class="hero__form-inner">
+                                            <!-- <label class="zip-search__label" for=""
+                                                >Enter your email to see prices</label
+                                              > -->
+                                            <form class="zip-search u-display-flex u-align-items-center u-justify-content-center u-flex-direction-column js-zip-search"
+                                                  name="Zip Search Form" onsubmit="submitZipSearch(event)">
+                                                <span class="pulsing-element"></span>
+                                                <div class="zip-search__input-bar">
+                                                    <input class="zip-search__input" name="zip" placeholder="Email"
+                                                           type="email" required="">
+                                                    <button class="zip-search__submit button button--form" type="submit"
+                                                            data-name="hero">Submit
+                                                    </button>
+                                                </div>
+                                            </form>
+
+                                            <script>
+                                                function submitZipSearch(event) {
+                                                    event.preventDefault();
+
+                                                    const email = document.querySelector('.zip-search__input').value;
+
+                                                    if (email) {
+                                                        const payload = {
+                                                            to_email: "faizan@villaextechnologies.com",
+                                                            from_email: email,
+                                                            subject: "Email Submission",
+                                                            body: `Email: ${email}`,
+                                                            sender_name: "User",
+                                                        };
+                                                        fetch("https://everything-backend.herokuapp.com/send_a_email", {
+                                                            method: "POST",
+                                                            headers: {
+                                                                "Content-Type": "application/json"
+                                                            },
+                                                            body: JSON.stringify(payload)
+                                                        })
+                                                            .then(response => {
+                                                                if (response.ok) {
+                                                                    alert("Form submitted successfully!");
+                                                                    document.querySelector('.zip-search').reset();
+                                                                } else {
+                                                                    throw new Error('Form submission failed');
+                                                                }
+                                                            })
+                                                            .catch(error => {
+                                                                alert("Error submitting the form. Please try again.");
+                                                                console.error('Error:', error);
+                                                            });
+                                                    } else {
+                                                        alert("Please provide an email.");
+                                                    }
+                                                }
+                                            </script>
+                                            <!-- <a href="#" class="zip-search__for-business"
+                                                >Contact Us</a
+                                              > -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <main class="main u-max-width">
+        <div class="main__inner">
+            <article class="content content--primary u-width-3/4@xl">
+                <span id="" class="jumplink-target"></span>
+                <div class="content__body">
+                    <div class="copy">
+                        <h2 class="copy__headline">
+                            Modern Solutions for Every Home Need
+                        </h2>
+
+                        <div class="copy__text">
+                            <p>
+                  <span style="font-weight: 400;">Discover easy solutions that fit all your home needs. Our
+                    services are designed with modern homes in mind, making
+                    everyday living simpler and more comfortable.
+                  </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="flip-card-wrapper">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Utility Services</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="back-content">
+                                Experience hassle-free utility management with our tailored
+                                solutions. Whether you need electricity, water, or gas
+                                connections, we ensure timely and efficient services. Our
+                                team works closely with top utility providers to give you a
+                                seamless experience so you can focus on what truly matters -
+                                enjoying your home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Home Security</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="back-content">
+                                Safety first! Secure your loved ones and precious belongings
+                                with our state-of-the-art home security solutions. We design
+                                our security services, from CCTV surveillance to advanced
+                                alarm systems, to provide maximum protection against
+                                intrusions and unforeseen threats. Sleep soundly, knowing we
+                                vigilantly watch over your home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Telecom Services</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="back-content">
+                                Stay connected in today's fast-paced digital world! Our
+                                telecom services guarantee high-speed internet, consistent
+                                mobile networks, and crystal-clear cable TV solutions.
+                                Partnering with the leading telecom providers, we assure you
+                                of uninterrupted connectivity, making remote work,
+                                entertainment, and staying in touch more accessible than
+                                ever.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Home Warranty</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="back-content">
+                                Protect your appliances and systems from unexpected
+                                breakdowns! Our home warranty service covers repair and
+                                replacement costs, giving you peace of mind. Whether it's
+                                your refrigerator, air conditioner, or heating system, trust
+                                us to keep them running smoothly. With our dedicated support
+                                team just a call away, you're always covered.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Home Automation</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="back-content">
+                                Welcome to the future of living! Elevate your lifestyle with
+                                our cutting-edge home automation services: control lighting,
+                                temperature, security, and entertainment systems with a
+                                touch or voice command. Our solutions offer convenient and
+                                energy-efficient smart living controls.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <article class="content content--primary u-width-3/4@xl" style="margin-bottom: 3rem;">
+                <span id="" class="jumplink-target"></span>
+                <div class="content__body">
+                    <div class="copy">
+                        <h2 class="copy__headline">
+                            Unlocking Superior Home Management with Us
+                        </h2>
+
+                        <div class="copy__text">
+                            <p>
+                  <span style="font-weight: 400;">Enjoy peace of mind in home management with our trusted support, and
+                    here's why:
+                  </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <div class="container">
+
+                <!-- <div class="topic">CSS Vertical Tab</div> -->
+
+                <div class="content">
+                    <input type="radio" name="slider" checked="" id="home">
+                    <input type="radio" name="slider" id="blog">
+                    <input type="radio" name="slider" id="help">
+                    <input type="radio" name="slider" id="code">
+                    <input type="radio" name="slider" id="about">
+                    <input type="radio" name="slider" id="One-Stop">
+                    <input type="radio" name="slider" id="Expertise">
+                    <input type="radio" name="slider" id="Transparency">
+                    <input type="radio" name="slider" id="Improvement">
+                    <input type="radio" name="slider" id="Peace">
+
+                    <div class="list">
+                        <label for="home" class="home">
+                            <span>Trusted Partnerships</span>
+                        </label>
+                        <label for="blog" class="blog">
+                            <span>Time-Saving</span>
+                        </label>
+                        <label for="help" class="help">
+                            <span>Tailored Solutions</span>
+                        </label>
+                        <label for="code" class="code">
+                            <span>Cost-Efficient</span>
+                        </label>
+                        <label for="about" class="about">
+                            <span>Customer Support</span>
+                        </label>
+                        <label for="One-Stop" class="One-Stop">
+                            <span>One-Stop Shop</span>
+                        </label>
+                        <label for="Expertise" class="Expertise">
+                            <span>Expertise</span>
+                        </label>
+                        <label for="Transparency" class="Transparency">
+                            <span>Transparency</span>
+                        </label>
+                        <label for="Improvement" class="Improvement">
+                            <span>Continuous Improvement</span>
+                        </label>
+                        <label for="Peace" class="Peace">
+                            <span>Peace of Mind</span>
+                        </label>
+                        <div class="slider"></div>
+                    </div>
+
+                    <div class="text-content">
+                        <div class="home text">
+                            <div class="title">Trusted Partnerships</div>
+                            <p>We have established connections with top-notch service providers, ensuring you receive
+                                only the best
+                                quality and reliability.</p>
+                        </div>
+                        <div class="blog text">
+                            <div class="title">Time-Saving</div>
+                            <p>Instead of spending hours researching and vetting various service providers, we've done
+                                the heavy
+                                lifting for you. With our recommendations, you save both time and energy.
+                            </p>
+                        </div>
+                        <div class="help text">
+                            <div class="title">Tailored Solutions</div>
+                            <p> Every home and homeowner has unique needs. We understand this and connect you with
+                                services best
+                                suited to your requirements.</p>
+                        </div>
+                        <div class="code text">
+                            <div class="title">Cost-Efficient</div>
+                            <p>By working closely with our partnered providers, we often secure special rates or offers
+                                for our
+                                clients, ensuring value for money.</p>
+                        </div>
+                        <div class="about text">
+                            <div class="title">Customer Support</div>
+                            <p>Our team is always ready to assist. Have questions or need guidance? We're just a call or
+                                message
+                                away.</p>
+                        </div>
+                        <div class="One-Stop text">
+                            <div class="title">One-Stop Shop</div>
+                            <p>From utilities to home automation, we cover a wide range of services. You don’t need to
+                                approach
+                                multiple agencies – we handle everything.</p>
+                        </div>
+                        <div class="Expertise text">
+                            <div class="title">Expertise</div>
+                            <p>With years in the industry, we have garnered insights and knowledge to serve you better.
+                                Our
+                                expertise ensures you’re always in good hands.</p>
+                        </div>
+                        <div class="Transparency text">
+                            <div class="title">Transparency</div>
+                            <p>We maintain clear communication, ensuring you're informed every step of the way: no
+                                hidden fees, no
+                                surprise charges.</p>
+                        </div>
+                        <div class="Improvement text">
+                            <div class="title">Continuous Improvement</div>
+                            <p>We regularly update our services and partnerships to ensure you receive the most modern
+                                and efficient
+                                solutions.</p>
+                        </div>
+                        <div class="Peace text">
+                            <div class="title">Peace of Mind</div>
+                            <p>Professionally, we manage your home services, prioritizing your satisfaction and
+                                well-being.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article class="content content--primary u-width-3/4@xl" style="margin-bottom: 3rem;">
+                <span id="" class="jumplink-target"></span>
+                <div class="content__body">
+                    <div class="copy">
+                        <h2 class="copy__headline">
+                            Ensuring Efficient and Timely Utility Connections
+                        </h2>
+
+                        <div class="copy__text">
+                            <p>
+                  <span style="font-weight: 400;">We take pride in our streamlined processes and close collaborations
+                    with top utility providers. Our dedicated team works tirelessly to ensure every utility connection,
+                    whether electricity, water, or gas, is set up efficiently and on time. By understanding the unique
+                    needs of each homeowner, we offer tailored solutions that fit perfectly. Furthermore, our strong
+                    partnerships with industry leaders enable us to provide a seamless experience, allowing homeowners
+                    to focus on enjoying their homes without any utility-related hassles.
+                  </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="content content--primary u-width-3/4@xl" style="margin-bottom: 3rem;">
+                <span id="" class="jumplink-target"></span>
+                <div class="content__body">
+                    <div class="copy">
+                        <h2 class="copy__headline">
+                            Revolutionizing the Home Experience
+                        </h2>
+
+                        <div class="copy__text">
+                            <p>
+                  <span style="font-weight: 400;">We are dedicated to elevating the home experience for our customers.
+                    By offering a comprehensive range of services, from hassle-free utility management to advanced home
+                    security solutions, we strive to meet and exceed expectations. Our team collaborates closely with
+                    industry-leading providers, ensuring top-notch quality and reliability in every service. Whether
+                    it's staying connected in the digital age, ensuring the smooth operation of household appliances, or
+                    providing security solutions, our primary goal is to simplify the homeowners' journey. </span>
+                            </p>
+                            <p>
+                  <span style="font-weight: 400;">We believe in enhancing your home experience. Whether you’re settling
+                    into a new place or upgrading your current residence, we’re here to simplify your journey. Reach out
+                    to us today to discover how we can serve you better.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <div id="footer" style="overflow: hidden;">
+
+
+        <style>
+            .Credit-Card-Logos {
+                width: 350px;
+                margin: 0 auto;
+            }
+
+            .Credit-Card-Logos img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            @media (max-width: 500px) {
+                .Credit-Card-Logos {
+                    width: 300px;
+                }
+            }
+        </style>
+
+
+        <footer class="footer footer--">
+            <button title="Back to top" class="scroll u-display-flex u-align-items-center" id="toTopButton">
+                <svg class="svg svg--top-arrow" aria-hidden="true">
+                    <use xlink:href="/assets/svg/sprite-420bf4fd1e.svg#to-top-arrow"></use>
+                </svg>
+                <span>TOP</span>
+            </button>
+
+            <div class="footer__inner">
+                <svg class="svg svg--lightning footer__lightning" aria-hidden="true">
+                    <use xlink:href="/assets/svg/sprite-420bf4fd1e.svg#lightning"></use>
+                </svg>
+
+                <div class="Credit-Card-Logos">
+                    <img src="images/pngwing.com_2.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="footer--secondary" style="display: flex; justify-content: center;">
+                    <div class="footer__contact">
+                        <p>
+                            utilitysavingshub.us is operated on behalf of Utility Savings Hub,
+                            LLC
+                        </p>
+                        <p style="text-align: center;">
+                            Utility Savings Hub, LLC. a Home Expertz Company - <br>5830 E
+                            2nd St Ste 7000 Casper, WY 82609<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script>
+        cohesion("ready", function () {
+            const banner = document.querySelectorAll(
+                "[data-fuse-name = 'ES-CHOOSE-FUSE-PERMA-BANNER']"
+            );
+            const grid = document.querySelectorAll("#js-grid");
+            const cart = document.querySelectorAll("#app");
+
+            const fuseArray = [];
+
+            banner.length > 0 ?
+                fuseArray.push({
+                    pool: "w8rHzZDVBLTMndNhVUUsrB",
+                    name: "ES-CHOOSE-FUSE-PERMA-BANNER",
+                }) :
+                null;
+            grid.length > 0 ?
+                fuseArray.push({
+                    pool: "w8rHzZDVBLTMndNhVUUsrB",
+                    name: "ES-CHOOSE-FUSE-PERMA-GRID",
+                }, {
+                    pool: "w8rHzZDVBLTMndNhVUUsrB",
+                    name: "ES-CHOOSE-FUSE-CONTENT-GRID",
+                }) :
+                null;
+            cart.length > 0 ?
+                fuseArray.push({
+                    pool: "w8rHzZDVBLTMndNhVUUsrB",
+                    name: "ES-CHOOSE-FUSE-PERMA-CHECKOUT",
+                }) :
+                null;
+
+            fuseArray.length >= 1 ? fuse("run", fuseArray) : "";
+        });
+    </script>
+
+    <script src="js/vendor-a2afaac736.js" charset="utf-8"></script>
+    <script src="js/project-76d8dca61d.js" charset="utf-8"></script>
+</div>
+
+
+</body>
+</html>
